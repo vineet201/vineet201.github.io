@@ -1257,6 +1257,32 @@ a.image {
     -ms-transform: scale(1.075);
     transform: scale(1.075); }
 
+
+
+
+
+
+    /* added by vineet */
+    @media only screen and (max-width: 508px) {
+      .image.left,
+      .image.right {
+        max-width: none;
+        width: 100%;
+        float: none;
+        padding: 0;
+      }
+      .image.left img,
+      .image.right img {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+        transition: transform 0.5s ease-in-out;
+      }
+     }
+
+
+     /* added by vineet */
+
 /* List */
 ol {
   list-style: decimal;
