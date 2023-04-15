@@ -226,7 +226,6 @@ textarea {
   /* color: #8f7f81; */
   color: #ffffff;
   font-family: "Open Sans", sans-serif;
-  /* font-family: 'Choco', cursive; */
   /* font-family: 'DynaPuff', cursive;
   font-weight: 40; */
 
@@ -313,8 +312,7 @@ h6 {
   /* color: #493d3d; */
   color: #ffffff;
   /* font-family: "Roboto Slab", serif; */
-  font-family: 'Choco', cursive;
-  /* font-family: 'DynaPuff', cursive; */
+  font-family: 'DynaPuff', cursive;
   font-weight: 700;
   line-height: 1.5;
   margin: 0 0 1em 0;
