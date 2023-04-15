@@ -196,6 +196,12 @@ background-blend-mode: screen;
 
 }
 
+/* #vineet fix horixontal scroll*/
+body {
+  overflow-x: hidden;
+}
+
+
 
 
 
