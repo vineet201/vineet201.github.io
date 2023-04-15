@@ -1,5 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic|Roboto+Slab:400,700");
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
 /*
 	Editorial by HTML5 UP
 	html5up.net | @ajlkn
@@ -224,8 +225,12 @@ select,
 textarea {
   /* color: #8f7f81; */
   color: #ffffff;
-  /* font-family: "Open Sans", sans-serif; */
-  font-family: 'Choco', cursive;
+  font-family: "Open Sans", sans-serif;
+  /* font-family: 'Choco', cursive; */
+  /* font-family: 'DynaPuff', cursive;
+  font-weight: 40; */
+
+
 
   font-size: 13pt;
   font-weight: 400;
@@ -309,6 +314,7 @@ h6 {
   color: #ffffff;
   /* font-family: "Roboto Slab", serif; */
   font-family: 'Choco', cursive;
+  /* font-family: 'DynaPuff', cursive; */
   font-weight: 700;
   line-height: 1.5;
   margin: 0 0 1em 0;
