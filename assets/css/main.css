@@ -109,6 +109,7 @@ section {
   display: block;
 }
 
+
 body {
   line-height: 1;
 }
@@ -286,7 +287,7 @@ a {
 
 a:hover {
   border-bottom-color: #e7eff2;
-  color: #6a00ffe4 !important;
+  color: #84ff54 !important;
 }
 
 a:hover strong {
