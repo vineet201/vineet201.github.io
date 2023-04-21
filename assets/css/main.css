@@ -189,10 +189,12 @@ html {
 
 
 body {
-  background: #0b0017;
+
+  
+  /* background: #0b0017; */
 
 /* #vineet bg color body */
-background: linear-gradient(to bottom right, rgb(5, 0, 13), rgb(1, 0, 7));
+background: linear-gradient(to bottom right, rgb(4, 0, 12), rgb(10, 0, 9));
 background-blend-mode: screen;
 
 }
