@@ -194,10 +194,34 @@ body {
   /* background: #0b0017; */
 
 /* #vineet bg color body ( this fix the blank white bg on loading) */
-background: linear-gradient(to bottom right, rgb(4, 0, 12), rgb(10, 0, 9));
-background-blend-mode: screen;
+/* background: linear-gradient(to bottom right, rgb(4, 0, 12), rgb(10, 0, 9));
+background-blend-mode: screen; */
+
 
 }
+
+
+body {
+  background: linear-gradient(to bottom right, rgb(4, 0, 12), rgb(10, 0, 9));
+  background-blend-mode: screen;
+}
+
+body::after {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('images/ppp.jpg'); /* Replace with the path to your star image */
+  z-index: -1;
+  opacity: 0.6; /* Adjust the opacity as needed */
+}
+
+
+/* new body background styles from here  */
+
+/* new body background styles to here  */
 
 /* #vineet fix horixontal scroll*/
 body {
@@ -226,7 +250,7 @@ body.is-resizing *:after {
 }
 
 
-/* #vineet edit */
+/* #vineet edit this is text color*/
 /* Type */
 body,
 input,
@@ -237,9 +261,6 @@ textarea {
   font-family: "Open Sans", sans-serif;
   /* font-family: 'DynaPuff', cursive;
   font-weight: 40; */
-
-
-
   font-size: 13pt;
   font-weight: 400;
   line-height: 1.65;
